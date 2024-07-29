@@ -9,8 +9,8 @@ The Product Management System is a Java-based application designed to manage pro
 - Add a new product
 - View details of a product
 - List all products
-- View out of warranty porducts
+- View out of warranty products
 
-## Especial Implementation:
+## Special Implementation:
 
-In the service class, the seearching logics are written using Stream API. 
+In the service class, the searching logics are written using Stream API. 
