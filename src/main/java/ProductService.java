@@ -6,8 +6,13 @@ import java.util.stream.Collectors;
 public class ProductService {
     private List<Product> products = new ArrayList<>();
     private  List<Product> customProductsList = new ArrayList<>();
+
+    ProductDB db = new ProductDB();
+
     public void addProduct(Product p){
-        products.add(p);
+//        products.add(p);
+
+        db.add(p);
     }
 
     public List<Product> getAllProduct(){
